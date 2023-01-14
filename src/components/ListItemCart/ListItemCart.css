@@ -1,0 +1,152 @@
+.m-list-cart-container {
+  box-sizing: border-box;
+  position: relative;
+  width: 29%;
+  background: #ffffff;
+  /* C1/D */
+
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+  padding: 32px 16px;
+  margin-top: 16px;
+  height: 800px;
+}
+
+.m-list-cart-container h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
+
+  /* C1/A */
+
+  color: #151515;
+}
+
+.m-list-cart-container > p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  /* C1/C */
+
+  color: #a9a9a9;
+  margin-top: 8px;
+}
+
+.cart-subtal {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  /* C1/A */
+
+  color: #151515;
+}
+.cart-subtal div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-apply-code {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  width: 100%;
+  background: #f9f9f9;
+  /* C1/D */
+
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+  height: 42px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.cart-apply-code input {
+  width: 100%;
+  border: none;
+  padding: 0 110px 0 16px;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* C1/C */
+
+  color: #151515;
+  background: #f9f9f9;
+}
+
+.cart-apply-code img {
+  position: absolute;
+  right: 16px;
+  top: 30%;
+  /* transform: translateX(-50%); */
+}
+
+.cart-total-order {
+  margin-top: 43px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-total-order div {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+}
+.cart-total-order div h3 {
+  color: #151515;
+}
+
+.cart-total-order div p {
+  color: #6a983c;
+}
+.cart-total-order h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+  /* identical to box height */
+
+  text-align: right;
+
+  /* C2/A */
+
+  color: #6a983c;
+}
+
+.cart-billing-container {
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  padding: 0 16px;
+  border-radius: 12px;
+  padding-bottom: 34px;
+}
+
+.cart-item-container {
+  max-height: 400px;
+  overflow-y: auto;
+}

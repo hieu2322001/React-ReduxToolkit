@@ -1,0 +1,50 @@
+.m_slick-blog {
+  background: #ffffff;
+  border: 1px solid #f1f1f1;
+  border-radius: 12px;
+  width: 369px;
+  height: 158px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 32px;
+  font-family: "Poppins";
+  font-style: normal;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.m_slick-blog p {
+  margin: 0 auto;
+  width: 305px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+
+  /* C1/A */
+
+  color: #151515;
+}
+
+.m_slick-blog span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* C1/C */
+
+  color: #a9a9a9;
+  margin-top: 34px;
+}
+
+.m_slick-blog img {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  bottom: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+}

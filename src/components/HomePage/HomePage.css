@@ -1,0 +1,89 @@
+.m-banner {
+  display: flex;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.wrap__list-nav-content {
+  display: flex;
+  flex-direction: column;
+  gap: 137px;
+}
+
+.list-banner {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+.list-banner img {
+  width: 620px;
+  height: 280px;
+  /* object-fit: contain; */
+}
+
+.m-list-product {
+  margin-top: 128px;
+  display: flex;
+  padding-bottom: 73px;
+}
+
+.list-product {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+  flex-grow: 1;
+  gap: 137px 0;
+}
+
+.m-list-blog {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins";
+  font-style: normal;
+
+  color: #151515;
+  margin-bottom: 42px;
+  margin-top: 69px;
+}
+
+.m-list-blog h1 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.m-list-blog button {
+  border: none;
+  outline: none;
+
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  background: #fff;
+  width: 98px;
+  height: 35px;
+}
+
+.slick-list-blog {
+  padding-bottom: 66px;
+}
+
+.slick_carousel img {
+  width: 32px;
+  height: 48px;
+  z-index: 10;
+}
+
+.slick-slide > div {
+  display: grid;
+  place-items: center;
+  width: 80%;
+  margin: auto;
+  padding: 0px;
+}
+
+.m-section-headline {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 73px;
+}

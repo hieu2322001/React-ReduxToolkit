@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* .navbar {
+      
+    } */
+  
+  .navbar-header {
+    padding: 16px 45px;
+    /* padding: 16px 0; */
+    display: flex;
+    justify-content: space-between;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    border-bottom: 1px solid #151515;
+  }
+  
+  .navbar-header > div {
+    display: flex;
+  }
+  
+  .l-nabar-header {
+    gap: 33px;
+  }
+  
+  .l-nabar-header p {
+    color: #151515;
+  }
+  
+  .l-nabar-header p:first-child {
+    color: #6a983c;
+  }
+  
+  .r-navbar-header {
+    gap: 38px;
+    color: #6a983c;
+  }
+  
+  .nav-head-content {
+    padding: 48px 45px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-h-search {
+    display: flex;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    height: 42px;
+    width: 500px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #f9f9f9;
+    border: 1px solid #d1d1d1;
+    border-radius: 12px;
+  }
+  
+  .nav-h-search input {
+    width: 242px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #a9a9a9;
+    border: none;
+    background: #f9f9f9;
+    outline: none;
+  }
+  
+  .n-wrap__logo {
+    width: 170px;
+    padding: 10px 28px 9px 16px;
+  }
+  
+  .nav-h-logo {
+    gap: 13px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #d1d1d1;
+  }
+  
+  .nav_search_icon {
+    position: absolute;
+    right: 18px;
+  }
+  
+  .nav-head-user {
+    gap: 42px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-head-user img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .nav-head-category {
+    padding: 0 45px;
+    gap: 39px;
+  
+    height: 55px;
+    background: #f9f9f9;
+    border-radius: 0px;
+  }
+  
+  .nav__list-category {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 44px;
+  }
+  
+  .nav__list-category li {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #151515;
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+  }

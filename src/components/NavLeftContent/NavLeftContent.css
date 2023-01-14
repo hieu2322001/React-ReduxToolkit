@@ -1,0 +1,55 @@
+.l-nav-content-banner {
+  width: 400px;
+  height: 323px;
+}
+.l-nav-content-banner h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #151515;
+}
+
+.l-nav-content-banner ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.l-nav-content-banner ul li {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+
+  /* C2/A */
+
+  color: #6a983c;
+  cursor: pointer;
+}
+
+.l-nav-content-banner button {
+  width: 179px;
+  height: 48px;
+
+  /* C1/F */
+
+  background: #f5f5f5;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 48px;
+  cursor: pointer;
+}
